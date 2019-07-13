@@ -17,7 +17,7 @@ namespace CoreEscuela.entidades
 
         public Escuela(string nombre, int año) => (Nombre, AñoDeCreación) = (nombre, año);
         public override string ToString(){
-           return $"Nombre{Nombre}, Tipo{TipoEscuela} \n Pais{Pais}, Ciudad{Ciudad}";
+           return $"Nombre: {Nombre}, Tipo: {TipoEscuela} \n Pais: {Pais}, Ciudad: {Ciudad}";
 
         }
     }

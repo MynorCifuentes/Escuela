@@ -18,7 +18,7 @@ namespace CoreEscuela.entidades
             (Nombre, AñoDeCreación) = (nombre, año);
             Ciudad =ciudad;
         }
-
+    
 
 
 // el simbolo \ dentro de la instruccion nos permite ingresar un caracter especial

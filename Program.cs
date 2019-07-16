@@ -28,7 +28,7 @@ namespace Etapa1
                 Nombre = "301"
             };
             Console.WriteLine(escuela);
-            System.Console.WriteLine("===============");
+            Console.WriteLine("===============");
 
            // ImprimirCursosWhile(arregloCursos);
             ImprimirCursosFor(arregloCursos);
@@ -39,7 +39,7 @@ namespace Etapa1
         {
             for (int i = 0; i < 3; i++)
             {
-                System.Console.WriteLine("Curso: "+i+":"+arregloCursos[i]);
+                Console.WriteLine("Curso: "+i+":"+arregloCursos[i]);
             }
         }
 

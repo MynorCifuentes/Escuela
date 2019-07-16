@@ -30,11 +30,11 @@ namespace Etapa1
             Console.WriteLine(escuela);
             System.Console.WriteLine("===============");
 
-            ImprimirCursos(arregloCursos);
+            ImprimirCursosWhile(arregloCursos);
 
         }
 
-        private static void ImprimirCursos(Curso[] arregloCursos)
+        private static void ImprimirCursosWhile(Curso[] arregloCursos)
         {
             int contador = 0;
             while (contador < arregloCursos.Length)

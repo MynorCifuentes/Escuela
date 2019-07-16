@@ -30,8 +30,17 @@ namespace Etapa1
             Console.WriteLine(escuela);
             System.Console.WriteLine("===============");
 
-            ImprimirCursosWhile(arregloCursos);
+           // ImprimirCursosWhile(arregloCursos);
+            ImprimirCursosFor(arregloCursos);
 
+        }
+
+        private static void ImprimirCursosFor(Curso[] arregloCursos)
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                System.Console.WriteLine("Curso: "+i+":"+arregloCursos[i]);
+            }
         }
 
         private static void ImprimirCursosWhile(Curso[] arregloCursos)

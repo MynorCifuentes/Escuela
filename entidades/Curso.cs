@@ -9,9 +9,9 @@ namespace CoreEscuela.entidades
         public TiposJornada Jornada { get; set; }
        public Curso()=> UniqueId = Guid.NewGuid().ToString();
 
-       public override string ToString(){
-           return $"UniqueId: {UniqueId}, Nombre: {Nombre}";
-       }
+       //public override string ToString(){
+           //return $"UniqueId: {UniqueId}, Nombre: {Nombre}";
+      // }
         
     }
 }

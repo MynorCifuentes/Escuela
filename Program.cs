@@ -14,7 +14,6 @@ namespace Etapa1
             };
 
 
-
             Console.WriteLine(escuela);
             Console.WriteLine("===============");
 

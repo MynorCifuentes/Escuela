@@ -7,30 +7,18 @@ namespace Etapa1
     {
         static void Main(string[] args)
         {
-            var escuela = new Escuela("Platzi Academy", 2012, TiposEscuela.Primaria, ciudad: "Bogota");
+            var escuela = new Escuela("USAC   Academy", 2012, TiposEscuela.Primaria, ciudad: "Bogota");
 
-            var arregloCursos = new Curso[3];
-            arregloCursos[0] = new Curso() { Nombre = "101" };
-            // arregloCursos[1] = new Curso(){Nombre = "102"};
-            arregloCursos[2] = new Curso() { Nombre = "301" };
+            var arregloCursos = new Curso[3]{
+                new Curso() { Nombre = "101" },new Curso() { Nombre = "201" },new Curso() { Nombre = "301" }
+            };
 
-            var curso1 = new Curso()
-            {
-                Nombre = "101"
-            };
-            var curso2 = new Curso()
-            {
-                Nombre = "201"
-            };
-            arregloCursos[1] = curso2;//otra forma de asignar el curso dos al arreglo
-            var curso3 = new Curso()
-            {
-                Nombre = "301"
-            };
+
+
             Console.WriteLine(escuela);
             Console.WriteLine("===============");
 
-           // ImprimirCursosWhile(arregloCursos);
+            // ImprimirCursosWhile(arregloCursos);
             ImprimirCursosFor(arregloCursos);
 
         }
@@ -39,7 +27,7 @@ namespace Etapa1
         {
             for (int i = 0; i < 3; i++)
             {
-                Console.WriteLine("Curso: "+i+":"+arregloCursos[i]);
+                Console.WriteLine("Curso: " + i + ":" + arregloCursos[i]);
             }
         }
 
